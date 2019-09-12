@@ -7,7 +7,7 @@
   ]
  */
 
-String basePath = 'dsljobs'
+String basePath = 'hosted-jenkins-two'
 
 folder(basePath) {
    description 'DSL generated folder'
