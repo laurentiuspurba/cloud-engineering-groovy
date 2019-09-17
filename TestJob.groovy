@@ -37,7 +37,7 @@ pipelineJob("$basePath/pipeline-seed-job") {
             }
             stage('Process statistics') {
               steps {
-                ps -a
+                sh 'docker ps -a'
               }
             }
           }
